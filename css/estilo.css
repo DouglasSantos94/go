@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#principal{
+    width: 100%;
+}
+
+.cabecalho-principal{
+    background-color: #007d9c;;
+    height: 500px;
+    box-sizing: border-box;
+    border-top: solid 0.1px transparent;
+    color: white;
+}
+
+.pesquisar{
+    background-color: transparent;
+    padding: 10px;
+    border: solid 0.1px white;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.menu-principal{
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0 10% 110px 0;
+    letter-spacing: 1px;
+}
+
+.menu-principal li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-principal li a{
+    padding: 13px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-principal li a:hover{
+    border-top: solid 3px #d91d1d;
+}
+
+.chamada{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+}
+
+.chamada h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 0px 0px;
+}
+
+.chamada p{
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.links-acesso{
+    float: left;
+    margin-top: 20px;
+}
+
+.introducao{
+    color: black;
+    background-color: #fddd00;
+    padding: 20px 80px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #626262;
+}
+
+.download{
+    display: block;
+    width: 285px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+    color: white;
+}
+
+.ladder{
+    width: 180px;
+    float: right;
+    margin-right: 10%;
+}
