@@ -16,6 +16,14 @@ body{
     color: white;
 }
 
+.logo{
+    width: 70px;
+    height: 40px;
+    float: left;
+    padding-top: 3px;
+    padding-left: 5%;
+}
+
 .pesquisar{
     background-color: transparent;
     padding: 10px;
@@ -92,7 +100,23 @@ body{
 }
 
 .ladder{
-    width: 180px;
+    width: 200px;
+    height: 355px;
     float: right;
     margin-right: 10%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    box-sizing: border-box;
+}
+.empresas h2{
+    display: inline-block;
+}
+.empresas{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    clear: right;
 }
