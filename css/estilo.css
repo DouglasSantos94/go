@@ -145,6 +145,7 @@ main{
     display: inline-block;
     margin: 0px;
     color: transparent;
+    font-size: 12px;
 }
 
 .lista-empresas li p:hover{
@@ -154,5 +155,5 @@ main{
 .lista-empresas li:hover{
     display: block;
     box-shadow: 2px 3px 5px gray;
-    color: gray;
+    border-radius: 5px;
 }
