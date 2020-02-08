@@ -111,12 +111,48 @@ main{
     width: 100%;
     box-sizing: border-box;
 }
+
 .empresas h2{
-    display: inline-block;
-}
-.empresas{
-    text-align: center;
     width: 100%;
+    text-align: center;
+}
+
+.empresas{
+    width: 90%;
     margin: auto;
-    clear: right;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.lista-empresas{
+    list-style: none;
+    margin: auto;
+}
+
+.lista-empresas li{
+    float: left;
+    width: 10%;
+    padding: 30px;
+    margin: 20px 100px;
+}
+
+.lista-empresas li img{
+    height: 100px;
+    width: 100%;
+}
+
+.lista-empresas li p{
+    display: inline-block;
+    margin: 0px;
+    color: transparent;
+}
+
+.lista-empresas li p:hover{
+    color: gray;
+}
+
+.lista-empresas li:hover{
+    display: block;
+    box-shadow: 2px 3px 5px gray;
+    color: gray;
 }
