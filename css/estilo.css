@@ -20,19 +20,23 @@ body{
     width: 70px;
     height: 40px;
     float: left;
+    margin-right: 100px;
     padding-top: 3px;
     padding-left: 5%;
 }
 
 .pesquisar{
+    float: left;
     background-color: transparent;
     padding: 10px;
-    border: solid 0.1px white;
-    color: rgba(255, 255, 255, 0.7);
+    border: solid 1px white;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 15px;
     letter-spacing: 0.5px;
-    margin-right: 50px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 .menu-principal{
