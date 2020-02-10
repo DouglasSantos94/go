@@ -6,6 +6,7 @@ body{
 
 #principal{
     width: 100%;
+    position: relative;
 }
 
 .cabecalho-principal{
@@ -14,19 +15,18 @@ body{
     box-sizing: border-box;
     border-top: solid 0.1px transparent;
     color: white;
+    position: relative;
 }
 
 .logo{
     width: 70px;
     height: 40px;
-    float: left;
-    margin-right: 100px;
-    padding-top: 3px;
-    padding-left: 5%;
+    position: absolute;
+    top: 10px;
+    left: 100px;    
 }
 
 .pesquisar{
-    float: left;
     background-color: transparent;
     padding: 10px;
     border: solid 1px white;
@@ -34,16 +34,19 @@ body{
     color: rgba(255, 255, 255, 0.5);
     font-size: 15px;
     letter-spacing: 0.5px;
-    margin-right: 0px;
-    margin-top: 10px;
     width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
 }
 
 .menu-principal{
-    text-align: right;
     box-sizing: border-box;
     margin: 0 10% 110px 0;
     letter-spacing: 1px;
+    position: absolute;
+    top: 0px;
+    right: 40px;
 }
 
 .menu-principal li{
@@ -63,8 +66,9 @@ body{
 
 .chamada{
     width: 40%;
-    margin-left: 10%;
-    float: left;
+    position: absolute;
+    top: 150px;
+    left: 5%;
 }
 
 .chamada h1{
@@ -80,8 +84,9 @@ body{
 }
 
 .links-acesso{
-    float: left;
-    margin-top: 20px;
+    position: absolute;
+    top: 170px;
+    left: 47%;
 }
 
 .introducao{
@@ -108,12 +113,15 @@ body{
     height: 355px;
     float: right;
     margin-right: 10%;
+    margin-top: 150px;
     box-sizing: border-box;
 }
 
 main{
     width: 100%;
     box-sizing: border-box;
+    z-index: 9999;
+    position: relative;
 }
 
 .empresas h2{
@@ -126,6 +134,7 @@ main{
     margin: auto;
     box-sizing: border-box;
     overflow: auto;
+    z-index: 1;
 }
 
 .lista-empresas{
