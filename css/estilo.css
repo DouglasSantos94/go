@@ -6,7 +6,7 @@ body{
 
 #principal{
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .cabecalho-principal{
@@ -16,14 +16,16 @@ body{
     border-top: solid 0.1px transparent;
     color: white;
     position: relative;
+    top: 0;
+    width: 100%;
 }
 
 .logo{
     width: 70px;
     height: 40px;
-    position: absolute;
+    position: relative;
     top: 10px;
-    left: 100px;    
+    left: 100px;
 }
 
 .pesquisar{
@@ -35,18 +37,17 @@ body{
     font-size: 15px;
     letter-spacing: 0.5px;
     width: 200px;
-    position: absolute;
-    top: 10px;
-    left: 300px;
+    position: relative;
+    top: 0;
+    left: 200px;
 }
 
 .menu-principal{
     box-sizing: border-box;
-    margin: 0 10% 110px 0;
     letter-spacing: 1px;
-    position: absolute;
-    top: 0px;
-    right: 40px;
+    width: 50%;
+    float: right;
+    margin-right: 3%;
 }
 
 .menu-principal li{
@@ -122,6 +123,7 @@ main{
     box-sizing: border-box;
     z-index: 9999;
     position: relative;
+    top: 500px;
 }
 
 .empresas h2{
