@@ -6,7 +6,7 @@ body{
 
 #principal{
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .cabecalho-principal{
@@ -123,7 +123,6 @@ main{
     box-sizing: border-box;
     z-index: 9999;
     position: relative;
-    top: 500px;
 }
 
 .empresas h2{
