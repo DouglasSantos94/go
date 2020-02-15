@@ -1,15 +1,15 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-#principal{
+#container{
     width: 100%;
     position: relative;
 }
 
-.cabecalho-principal{
+.main-header{
     background-color: #007d9c;;
     height: 500px;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body{
     left: 100px;
 }
 
-.pesquisar{
+.site-search{
     background-color: transparent;
     padding: 10px;
     border: solid 1px white;
@@ -42,7 +42,7 @@ body{
     left: 200px;
 }
 
-.menu-principal{
+.menu{
     box-sizing: border-box;
     letter-spacing: 1px;
     width: 50%;
@@ -50,47 +50,48 @@ body{
     margin-right: 3%;
 }
 
-.menu-principal li{
+.menu li{
     list-style: none;
     display: inline-block;
 }
 
-.menu-principal li a{
+.menu li a{
     padding: 13px 20px;
     color: white;
     text-decoration: none;
 }
 
-.menu-principal li a:hover{
+.menu li a:hover{
     border-top: solid 3px #d91d1d;
 }
 
-.chamada{
-    width: 40%;
-    position: absolute;
-    top: 150px;
+.content{
+    width: 45%;
+    position: relative;
+    top: 100px;
     left: 5%;
 }
 
-.chamada h1{
-    font-size: 40px;
+.content h1{
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: 1.5px;
-    margin: 0px 0px;
+    margin: 0;
 }
 
-.chamada p{
-    font-size: 25px;
-    margin-top: 0px;
+.content p{
+    font-size: 20px;
+    margin-top: 0;
 }
 
-.links-acesso{
+.links{
+    display: inline-block;
     position: absolute;
     top: 170px;
-    left: 47%;
+    left: 50%;
 }
 
-.introducao{
+.intro{
     color: black;
     background-color: #fddd00;
     padding: 20px 80px;
@@ -125,12 +126,12 @@ main{
     position: relative;
 }
 
-.empresas h2{
+.companies h2{
     width: 100%;
     text-align: center;
 }
 
-.empresas{
+.companies{
     width: 90%;
     margin: auto;
     box-sizing: border-box;
@@ -138,35 +139,35 @@ main{
     z-index: 1;
 }
 
-.lista-empresas{
+.company-list{
     list-style: none;
     margin: auto;
 }
 
-.lista-empresas li{
+.company-list li{
     float: left;
     width: 10%;
     padding: 30px;
     margin: 20px 100px;
 }
 
-.lista-empresas li img{
+.company-list li img{
     height: 100px;
     width: 100%;
 }
 
-.lista-empresas li p{
+.company-list li p{
     display: inline-block;
     margin: 0px;
     color: transparent;
     font-size: 12px;
 }
 
-.lista-empresas li p:hover{
+.company-list li p:hover{
     color: gray;
 }
 
-.lista-empresas li:hover{
+.company-list li:hover{
     display: block;
     box-shadow: 2px 3px 5px gray;
     border-radius: 5px;
