@@ -6,12 +6,18 @@
         <meta name="author" content="Douglas Santos">
         <meta name="description" content="Teste - página da linguagem Go">
         <meta name="keywords" content="go, dev, desenvolvimento, tecnologia">
-        <link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/estilo.css">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
         <script>
             function exibirNome(nomeEmpresa){
                 alert(nomeEmpresa)
             }
-        </script>
+		</script>
+		<style>
+			@media screen and (min-width: 300px){
+				
+			}
+		</style>
     </head>
     <body>
         <div id="container">
@@ -45,54 +51,52 @@
                 <section class="companies">
                     <h2>Empresas que usam Go</h2>
                     <div class="company-list">
-                        <div class="group">
-                            <div class="d1">
+                        <div class="row">
+                            <div class="col-1-4">
                                 <img src="img/paypal.svg" onclick="exibirNome(alt)" alt="PayPal" class="card1">
                                 <p>View study case</p>
                             </div>
-                            <div class="d2">
+                            <div class="col-1-4">
                                 <img src="img/amex.png" onclick="exibirNome(alt)" alt="American Express" class="card2">
                                 <p>View study case</p>
                             </div>
-                            <div>
-                                <img src="img/merc.svg" onclick="exibirNome(alt)" alt="Mercado divvre" class="card3">
+                            <div class="col-1-4">
+                                <img src="img/merc.svg" onclick="exibirNome(alt)" alt="Mercado Livre" class="card3">
                                 <p>View study case</p>
                             </div>
+							<div class="col-1-4">
+								<img src="img/sales.svg" onclick="exibirNome(alt)" alt="SalesForce" class="card4">
+								<p>View study case</p>
+							</div>
                         </div>    
-                        <div class="group">
-                            <div class="d1">
-                                <img src="img/sales.svg" onclick="exibirNome(alt)" alt="SalesForce" class="card4">
-                                <p>View study case</p>
-                            </div>
-                            <div class="d2">
+                        <div class="row">
+                            <div class="col-1-4">
                                 <img src="img/capital.svg" onclick="exibirNome(alt)" alt="Capital One" class="card5">
                                 <p>View study case</p>
                             </div>
-                            <div>
+                            <div class="col-1-4">
                                 <img src="img/target.svg" onclick="exibirNome(alt)" alt="Target" class="card6">
                                 <p>View study case</p>
                             </div>
-                        </div>
-                        <div class="group">
-                            <div class="d1">
+                            <div class="col-1-4">
                             <img src="img/twitch.svg" onclick="exibirNome(alt)" alt="Twitch" class="card7">
                                 <p>View study case</p>
                             </div>
-                            <div class="d2">
+                            <div class="col-1-4">
                             <img src="img/netflix.svg" onclick="exibirNome(alt)" alt="Netflix" class="card8">
                                 <p>View study case</p>
                             </div>
-                            <div>
-                            <img src="img/twitter.svg" onclick="exibirNome(alt)" alt="Twitter" class="card9">
-                                <p>View study case</p>
-                            </div>
                         </div>
-                        <div class="group">
-                            <div class="d3">
+                        <div class="row">
+							<div class="col-1-3">
+								<img src="img/twitter.svg" onclick="exibirNome(alt)" alt="Twitter" class="card9">
+								<p>View study case</p>
+							</div>
+                            <div class="col-1-3">
                                 <img src="img/uber.svg" onclick="exibirNome(alt)" alt="Uber">
                                 <p>View study case</p>
                             </div>
-                            <div class="d4">
+                            <div class="col-1-3">
                                 <img src="img/drop.svg" onclick="exibirNome(alt)" alt="DropBox" class="card11">
                                 <p>View study case</p>
                             </div>
