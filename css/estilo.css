@@ -47,7 +47,8 @@ body{
     letter-spacing: 1px;
     width: 50%;
     float: right;
-    margin-right: 3%;
+	margin-right: 3%;
+	max-width: 50%;
 }
 
 .menu li{
@@ -62,7 +63,7 @@ body{
 }
 
 .menu li a:hover{
-    border-top: solid 3px #d91d1d;
+	border-top: solid 3px #d91d1d;
 }
 
 .content{
@@ -74,7 +75,7 @@ body{
 }
 
 .text{
-    width: 47%;
+    max-width: 47%;
     float: left;
     margin-right: 25px;
 }
@@ -150,10 +151,10 @@ main{
 }
 
 .row{
-	margin-top: 50px;
-	max-height: 200px;
-	margin: auto;
+	margin: 50px auto;
 	box-sizing: border-box;
+	overflow: auto;
+	padding: 5px;
 }
 
 .col-1-4{
