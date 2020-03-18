@@ -1,3 +1,7 @@
+html{
+	font-size: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -14,7 +18,6 @@ body{
 #container{
     width: 100%;
     position: relative;
-
 }
 
 .main-header{
@@ -27,30 +30,30 @@ body{
 }
 
 .logo{
-    width: 70px;
-    height: 40px;
+    width: 4.375rem;
+    height: 2.5rem;
     position: relative;
-    top: 10px;
-    left: 100px;
+    top: .625rem;
+    left: 6.25rem;
 }
 
 .site-search{
     background-color: transparent;
-    padding: 10px;
+    padding: .625rem;
     border: solid 1px white;
     border-radius: 40px;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    width: 20%;
+    font-size: .9375rem;
+    letter-spacing: 0.03125rem;
+    width: 20.5rem;
     position: relative;
     top: 0;
-    left: 200px;
+    left: 12.5rem;
 }
 
 .menu{
     box-sizing: border-box;
-    letter-spacing: 1px;
+    letter-spacing: 0.03125rem;
     width: 50%;
     float: right;
 	margin-right: 3%;
@@ -63,55 +66,58 @@ body{
 }
 
 .menu li a{
-    padding: 13px 20px;
+    padding: 0.8125rem 1.25rem;
     color: white;
     text-decoration: none;
 }
 
 .menu li a:hover{
-	border-top: solid 3px #d91d1d;
+	border-top: solid .25rem #d91d1d;
 }
 
 .content{
     width: 100%;
     position: relative;
-    padding: 100px 100px 0;
+    padding: 6.25rem 6.25rem 0;
     box-sizing: border-box;
 }
 
 .text{
     max-width: 47%;
     float: left;
-    margin-right: 25px;
+    margin-right: 1.5625rem;
 }
 
 .content h1{
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: bolder;
-    letter-spacing: 1.5px;
+    letter-spacing: .09375rem;
     width: 100%;
     margin: 0;
 }
 
 .content p{
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 100%;
 }
 
 .links{
-    width: 310px;
-    height: 220px;
+    width: 19.375rem;
+    height: 13.75rem;
     float: left;
     position: relative;
-    top: 20px;
+    top: 1.25rem;
 }
 
 .intro{
     color: black;
-    background-color: #fddd00;
-    padding: 20px 80px;
+	background-color: hsl(52, 100%, 50%);
+	width: 100%;
+	padding: 0.625rem 0;
+	display: block;
     text-decoration: none;
-    font-size: 25px;
+	font-size: 1.5625rem;
+	text-align: center;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #626262;
 }
@@ -120,14 +126,15 @@ body{
     display: block;
     color: white;
     position: relative;
-    top: 35px;
-    text-align: center; 
+    top: 1rem;
+	text-align: center; 
+	border: solid 1px yellow;
     width: 100%;
 }
 
 .ladder{
     position: relative;
-    height: 350px;
+    height: 21.875rem;
     box-sizing: border-box;
     overflow: hidden;
     float: right;
@@ -151,14 +158,14 @@ main{
 }
 
 .company-list img{
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .row{
-	margin: 50px auto;
+	margin: 3.125rem auto;
 	box-sizing: border-box;
-	padding: 5px;
+	padding: 0.3125rem;
 }
 
 .col-1-4{
