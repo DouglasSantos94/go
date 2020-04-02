@@ -141,37 +141,38 @@ body{
 
 main{
     width: 100%;
-    box-sizing: border-box;
-    position: relative;
 }
 
 .companies{
+	display: flex;
+	flex-direction: column;
     color: transparent;
-    width: 90%;
-    margin: auto;
-    text-align: center;
+    width: 100%;
 }
 
 .companies h2{
-    color: black;
+	color: black;
+	align-self: center;
+}
+
+.company-list{
+	width: 100%;
+	display: flex;
+	align-self: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 
 .company-list img{
-    max-width: 7.5rem;
+	width: 150px;
     height: 9.375rem;
 }
 
-.row{
-	margin: 3.125rem auto 0;
-	box-sizing: border-box;
-	padding: 0.3125rem;
-	max-width: max-content;
-}
-
 .col{
-	max-width: calc(100% - 1.25rem);	
-	float: left;
-	padding: 0.625rem;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+		padding: 0.625rem;
 	transition: all .5s ease-in-out .1s;
 }
 
