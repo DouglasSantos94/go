@@ -1,172 +1,183 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
+html{
+	font-size: 100%;
 }
 
-#principal{
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#container{
     width: 100%;
     position: relative;
 }
 
-.cabecalho-principal{
+.main-header{
     background-color: #007d9c;;
-    height: 500px;
     box-sizing: border-box;
     border-top: solid 0.1px transparent;
     color: white;
     position: relative;
+    width: 100%;
 }
 
 .logo{
-    width: 70px;
-    height: 40px;
-    position: absolute;
-    top: 10px;
-    left: 100px;    
+    width: 4.375rem;
+    height: 2.5rem;
+    position: relative;
+    top: .625rem;
+    left: 6.25rem;
 }
 
-.pesquisar{
+.site-search{
     background-color: transparent;
-    padding: 10px;
+    padding: .625rem;
     border: solid 1px white;
     border-radius: 40px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    width: 200px;
-    position: absolute;
-    top: 10px;
-    left: 300px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: .9375rem;
+    letter-spacing: 0.03125rem;
+    width: 20.5rem;
+    position: relative;
+    top: 0;
+    left: 12.5rem;
 }
 
-.menu-principal{
+.menu{
     box-sizing: border-box;
-    margin: 0 10% 110px 0;
-    letter-spacing: 1px;
-    position: absolute;
-    top: 0px;
-    right: 40px;
+    letter-spacing: 0.03125rem;
+    width: 50%;
+    float: right;
+	margin-right: 3%;
+	max-width: 50%;
 }
 
-.menu-principal li{
+.menu li{
     list-style: none;
     display: inline-block;
 }
 
-.menu-principal li a{
-    padding: 13px 20px;
+.menu li a{
+    padding: 0.8125rem 1.25rem;
     color: white;
     text-decoration: none;
 }
 
-.menu-principal li a:hover{
-    border-top: solid 3px #d91d1d;
+.menu li a:hover{
+	border-top: solid .25rem #d91d1d;
 }
 
-.chamada{
-    width: 40%;
-    position: absolute;
-    top: 150px;
-    left: 5%;
+.content{
+    width: 100%;
+    position: relative;
+    padding: 6.25rem 6.25rem 0;
+    box-sizing: border-box;
 }
 
-.chamada h1{
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    margin: 0px 0px;
+.text{
+    max-width: 47%;
+    float: left;
+    margin-right: 1.5625rem;
 }
 
-.chamada p{
-    font-size: 25px;
-    margin-top: 0px;
+.content h1{
+    font-size: 2.1875rem;
+    font-weight: bolder;
+    letter-spacing: .09375rem;
+    width: 100%;
+    margin: 0;
 }
 
-.links-acesso{
-    position: absolute;
-    top: 170px;
-    left: 47%;
+.content p{
+    font-size: 1.25rem;
+    width: 100%;
 }
 
-.introducao{
+.links{
+    width: 19.375rem;
+    height: 13.75rem;
+    float: left;
+    position: relative;
+    top: 1.25rem;
+}
+
+.intro{
     color: black;
-    background-color: #fddd00;
-    padding: 20px 80px;
+	background-color: hsl(52, 100%, 50%);
+	width: 100%;
+	padding: 0.625rem 0;
+	display: block;
     text-decoration: none;
-    font-size: 25px;
+	font-size: 1.5625rem;
+	text-align: center;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #626262;
 }
 
 .download{
     display: block;
-    width: 285px;
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 40px;
     color: white;
+    position: relative;
+    top: 1rem;
+	text-align: center; 
+    width: 100%;
 }
 
 .ladder{
-    width: 200px;
-    height: 355px;
-    float: right;
-    margin-right: 10%;
-    margin-top: 150px;
+    position: relative;
+    height: 21.875rem;
     box-sizing: border-box;
+    overflow: hidden;
+    float: right;
 }
 
 main{
     width: 100%;
-    box-sizing: border-box;
-    z-index: 9999;
-    position: relative;
 }
 
-.empresas h2{
-    width: 100%;
-    text-align: center;
-}
-
-.empresas{
-    width: 90%;
-    margin: auto;
-    box-sizing: border-box;
-    overflow: auto;
-    z-index: 1;
-}
-
-.lista-empresas{
-    list-style: none;
-    margin: auto;
-}
-
-.lista-empresas li{
-    float: left;
-    width: 10%;
-    padding: 30px;
-    margin: 20px 100px;
-}
-
-.lista-empresas li img{
-    height: 100px;
-    width: 100%;
-}
-
-.lista-empresas li p{
-    display: inline-block;
-    margin: 0px;
+.companies{
+	display: flex;
+	flex-direction: column;
     color: transparent;
-    font-size: 12px;
+    width: 100%;
 }
 
-.lista-empresas li p:hover{
-    color: gray;
+.companies h2{
+	color: black;
+	align-self: center;
 }
 
-.lista-empresas li:hover{
-    display: block;
+.company-list{
+	width: 100%;
+	display: flex;
+	align-self: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.company-list img{
+	width: 150px;
+    height: 9.375rem;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+		padding: 0.625rem;
+	transition: all .5s ease-in-out .1s;
+}
+
+.col:hover{
+    border-radius: 4px;
     box-shadow: 2px 3px 5px gray;
-    border-radius: 5px;
+    color: gray;
 }
